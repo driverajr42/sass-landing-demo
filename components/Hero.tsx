@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
+    // TODO: Delete border-2 border-red-500
     <section className='border-2 border-red-500 bg-blue padding-container flexColCenter gap-20 py-10 md:gap-28 lg:py-20'>
       
       <div className='text-4xl lg:w-[62%] lg:regular-64'>
