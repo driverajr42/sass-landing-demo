@@ -20,9 +20,7 @@ module.exports = {
           90: '#141414',
         },
         "orange": "#F86642",
-        blue: {
-          70: '#021639',
-        },
+        'blue':'#E0EAF3',
         yellow: {
           50: '#FEC601',
         },

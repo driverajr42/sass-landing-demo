@@ -49,6 +49,9 @@ body {
   .flexBetween {
     @apply flex items-center justify-between;
   }
+  .flexEvenly {
+    @apply flex items-center justify-evenly;
+  }
 
   .flexStart {
     @apply flex items-center justify-start;
@@ -129,7 +132,7 @@ body {
 
   /* Hero */
   .hero-img {
-    @apply relative right-0 top-10 h-52 w-full bg-heroImg bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply relative right-0 top-8  bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
   /* Camp */

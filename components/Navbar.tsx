@@ -19,7 +19,7 @@ const Navbar = () => {
     // }
   return (
     // TODO: When navbar is completed, remove the border-2 and border-red-500 classes
-    <nav className="border-2 border-red-500 flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="border-2 border-red-500 flexBetween  padding-container relative z-30 py-5 bg-blue lg:flexEvenly">
         <Link href='/' onClick={handleSmallScreen}>
             <Image src='/logo.svg' alt="logo" width={74} height={29}/>
             </Link>
