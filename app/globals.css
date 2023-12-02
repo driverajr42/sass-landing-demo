@@ -49,6 +49,10 @@ body {
   .flexBetween {
     @apply flex items-center justify-between;
   }
+  .flexColBetween {
+    @apply flex items-center justify-between flex-col;
+  }
+
   .flexEvenly {
     @apply flex items-center justify-evenly;
   }

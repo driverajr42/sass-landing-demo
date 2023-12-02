@@ -22,9 +22,7 @@ module.exports = {
         "orange": "#F86642",
         'blue':'#E0EAF3',
         "black": "#292526",
-        yellow: {
-          50: '#FEC601',
-        },
+        "offWhite": "#F6F6F6",
       
       },
       backgroundImage: {
