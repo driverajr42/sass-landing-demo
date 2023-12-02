@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Button from './Button'
+import Customers from './Customers';
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import Image from 'next/image';
 
@@ -10,7 +11,7 @@ const Hero = () => {
     // TODO: Delete border-2 border-red-500
     <section className='border-2 border-red-500 bg-blue padding-container flexColCenter gap-20 py-10 md:gap-28 lg:py-20'>
       
-      <div className='text-4xl lg:w-[62%] lg:regular-64'>
+      <div className='text-4xl  md:regular-64 md:w-[78.666667%] lg:w-[64.666667%] xl:w-[54.666667%] 2xl:w-[47.666667%] '>
       <h1 className='font-bold text-center'>A UI/UX Design Subscription So <span className='text-orange font-bold'>Good</span> It Should Come With A <span className='text-orange font-bold'>Warning</span> Label</h1>
       </div>
       
@@ -29,7 +30,11 @@ const Hero = () => {
         <div className="relative z-10 -top-12 lg:flexCenter">
                 <Button type='button' title='Start Your Risk Free Trial' variant='btn_orange' />
         </div>
-      <Image src='/hero-img.svg' alt={''} width={900} height={900} className='relative -top-36 lg:-top-44 '/>
+      <Image src='/hero-img.svg' alt={''} width={900} height={900} className='relative -top-36 md:-top-44 '/>
+
+      
+        <Customers />
+      
     </section>
   )
 }
